@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1525254657 source:c:\users\marcb\desktop\projet_info121\simulation\coord.cpp
+	<iostream>
+	<cstdlib>
+	"Coord.hpp"
+
+1525254657 c:\users\marcb\desktop\projet_info121\simulation\coord.hpp
+
+1525254657 source:c:\users\marcb\desktop\projet_info121\simulation\fourmi.cpp
+	<iostream>
+	"Fourmi.hpp"
+
+1525254657 c:\users\marcb\desktop\projet_info121\simulation\fourmi.hpp
+	"Coord.hpp"
+
+1525254657 source:c:\users\marcb\desktop\projet_info121\simulation\grille.cpp
+	<iostream>
+	<iomanip>
+	"Grille.hpp"
+
+1525254657 c:\users\marcb\desktop\projet_info121\simulation\grille.hpp
+	"Coord.hpp"
+	"Place.hpp"
+
+1525254657 c:\users\marcb\desktop\projet_info121\simulation\place.hpp
+	"Coord.hpp"
+	"Fourmi.hpp"
+
+1525254657 source:c:\users\marcb\desktop\projet_info121\simulation\place.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"Place.hpp"
+
+1525254657 source:c:\users\marcb\desktop\projet_info121\simulation\main.cpp
+	<iostream>
+	<iomanip>
+	<sstream>
+	<fstream>
+	<string>
+	"Fourmi.hpp"
+	"Grille.hpp"
+	"Place.hpp"
+	"Coord.hpp"
+
